@@ -96,9 +96,6 @@ function Login() {
 
   return (
     <div className="Login">
-      <h3>{localStorage.getItem("logined")}</h3>
-      <h3>{localStorage.getItem("jwt")}</h3>
-      
       {
       localStorage.getItem("logined") === "true" 
         ? <div>Zaten giriş yapıldı!</div>
