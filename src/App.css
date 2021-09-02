@@ -1,0 +1,146 @@
+h1, h2, h3, h4, h5, h6, p{
+	color: white;
+	
+}
+
+input{
+	color: white;
+}
+
+.card{
+	background-color: #181a1b !important;
+}
+
+.auth-card{
+	padding: 20px;
+	text-align: center;
+	max-width: 400px;
+	margin: 10px auto;
+	background-color: #181a1b !important;
+
+}
+
+.navbar{
+	width: 100% !important;
+}
+
+.navbar-h6{
+	float: left !important;
+}
+
+.navbar-li{
+	color: black !important;
+}
+
+.appbarlogo{
+	position: fixed;
+	bottom: 88%;
+	right: 0%;
+	font-size: 5vh;
+}
+
+nav .brand-logo{
+	left: 0 !important;
+	float: left !important;
+}
+
+.brand-logo{
+	color: black !important;
+	font-family: 'Grand Hotel', cursive;
+	
+	left: 0 !important;
+	/*float: left !important;*/
+	
+}
+
+.joined-item{
+	position:relative;margin:.5rem 0 1rem 0;background-color:#fff;-webkit-transition:-webkit-box-shadow .25s;transition:-webkit-box-shadow .25s;transition:box-shadow .25s;transition:box-shadow .25s, -webkit-box-shadow .25s;border-radius:2px}
+
+.meeting-infos{
+	background-color: red;
+	height: 100vh;
+	width: 29%;
+	float: left;
+
+}
+
+.meeting-joined-users-infos{
+	background-color: blue;
+	height: 100vh;
+	width: 39%;
+
+}
+
+.meeting-user-infos{
+	background-color: darkviolet;
+	height: 100vh;
+	width: 29%;
+	float: right;
+	position: relative;
+	bottom: 100vh;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #2196F3;
+}
+	
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+	
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+.slider.round {
+ border-radius: 34px;
+}
+
+.slider.round:before {
+ border-radius: 50%;
+}
+
+.myJoinedMeetings{
+	background-color: rgb(222, 222, 222);
+	width: 80%;
+	height: 10vh;
+}
