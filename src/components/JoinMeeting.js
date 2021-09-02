@@ -15,11 +15,11 @@ function JoinMeeting(){
     useEffect(() => {
         if(!mobileAppJwt || mobileAppJwt == ""){
             setJwt(localStorage.getItem("jwt"));
-            alert("web site user", localStorage.getItem("jwt"));
+            //alert("web site user", localStorage.getItem("jwt"));
             
         }else{
             setJwt(mobileAppJwt);
-            alert("mobile app user");
+            //alert("mobile app user");
 
         }
 
@@ -38,7 +38,7 @@ function JoinMeeting(){
                     }
                 })
                 .then((res) => {
-                    alert(jwt);
+                    //alert(jwt);
     
                     setFined(true);
     
@@ -56,8 +56,8 @@ function JoinMeeting(){
     
                     setTimeout(function(){
                         if(res.data.auth == false){
-                            //window.location="/login";
-                            alert("unhorization");
+                            window.location="/login";
+                            //alert("unhorization");
                         }                    
     
                     }, 2000)
