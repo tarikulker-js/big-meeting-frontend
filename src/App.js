@@ -57,6 +57,8 @@ export default function App() {
                  <br />
                 <button style={{ width: "100%" }}  onClick={() => window.location="/create-meeting"}><a href="/">Meeting Oluştur</a></button>
                   <br />
+		<button style={{ width: "100%" }}  onClick={() => window.location="bigmeeting://"}><a href="bigmeeting://">Mobil Uygulama</a></button>
+                  <br />
                 <button style={{ width: "100%" }}  onClick={() => window.location="/logout"}><a href="/">Çıkış Yap</a></button>
 
               </center>
@@ -66,6 +68,8 @@ export default function App() {
                 <br />
                 <button style={{ width: "100%" }} onClick={() => window.location="/register"}><a href="/register">Kayıt Ol</a></button>
                 <br />
+		<button style={{ width: "100%" }}  onClick={() => window.location="bigmeeting://"}><a href="bigmeeting://">Mobil Uygulama</a></button>
+                  <br />
 
               </div>
 
