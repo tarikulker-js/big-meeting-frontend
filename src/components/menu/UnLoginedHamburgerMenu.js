@@ -70,6 +70,23 @@ function HamburgerMenu() {
 							<Link to="/register">
 								<span>Kayıt Ol</span>
 							</Link>
+            <li key="" className="">
+							<Link to="">
+								<span></span>
+							</Link>
+						</li>
+
+						<li key="" className="">
+							<Link to="">
+								<span></span>
+							</Link>
+						</li>
+
+            <li key="" className="goToRegister">
+							<a href="bigmeeting://">
+								<span>Mobil Uygulama</span>
+							</a>
+
 						</li>
             
 
