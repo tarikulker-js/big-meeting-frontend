@@ -15,16 +15,7 @@ function Login() {
     }else if(localStorage.getItem("logined") === "false"){
 
     }else{
-      toast.warning("Bilinmeyen sonuç... Lütfen bekleyiniz." + localStorage.getItem("logined"), {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        
-      });
+      
     }
   })
 
