@@ -57,7 +57,7 @@ function Home() {
                   <h5 style={{float: "left", marginLeft: "5%", fontSize: "6vh"}}>{guest.meetingId.title}</h5>
                   <p style={{float: "left", marginLeft: "3%", fotnSize: "4vh"}}>{guest.meetingId.desc}</p>
 
-                  <a href={"http://localhost:3000/meeting/" + guest.meetingId._id}><button className="btn cyan" style={{
+                  <a href={"/meeting/" + guest.meetingId._id}><button className="btn cyan" style={{
                       verticalAlign: "center", 
                       float: "right",
                       position: "relative",
