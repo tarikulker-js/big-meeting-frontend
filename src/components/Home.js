@@ -37,11 +37,11 @@ function Home() {
     <div className="Home">
       
       <h4 style={{fontSize: "5vh"}}>Katıldığınız Meeting'ler: </h4>
-
+	{ console.log("guests", guests)}
       {!guests ? <h4>Loading...</h4> : 
         guests.length == 0 ? <h4>Katıldığınız Meeting yok. </h4> :
 
-        guests.map((guest) => {
+        guests.map ? guests.map((guest) => {
           console.log("guests in render(map) ", guests);
 
           return(
@@ -67,7 +67,7 @@ function Home() {
               <br/ ><br/> 
             </center>
           )
-        })
+        }) : <h4>Loading...</h4>
       }
     </div>
   );
