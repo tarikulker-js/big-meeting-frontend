@@ -28,6 +28,11 @@ function Home() {
     })
     .then((guestsReq) => {
       console.log(guestsReq.data);
+	    
+	    if(guestsReq.auth == false){
+	    	window.location="/login"
+	    }
+	    
       setGuests(guestsReq.data);
 
     })
